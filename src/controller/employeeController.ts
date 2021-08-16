@@ -29,7 +29,7 @@ class EmployeeController {
             const id = parseInt(req.params.employeeId);
             const client = await Pool.connect();
 
-            const sql = SELECT * from Employee where employee_id=${id}`;
+            const sql = `SELECT * from Employee where employee_id=${id}`;
             const { rows }  = await client.query(sql);
             const employeeInformation = rows;
 

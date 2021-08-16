@@ -4,7 +4,6 @@ import Pool from "./dbconfig/dbconnector";
 import employeeRouters from './routers/employeeRouters';
 import departmentRouters from "./routers/departmentRouters";
 import log from './logHandler';
-
 class Server {
   private app;
 
