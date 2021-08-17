@@ -11,23 +11,18 @@ express
 
 First of all install all the dependencies by following command - 
 
-### `npm install`
-### `yarn`
+### `npm install` OR `yarn`
 
 
 
 Now after this run the following command to create run the tslint so that it can be converted into js. 
 
-### `npm run build`
-or
-### `yarn build`
+### `npm run build` OR `yarn build`
 
 
 After this all things are set we can run the project by the command 
 
-### `npm start`
-or
-### `yarn start`
+### `npm start` OR `yarn start`
 
                                      
 We will get the result at \
@@ -36,13 +31,14 @@ We will get the result at \
 
 
 Endpoint present in the projects -\
+
 For Employee\
 http://localhost:4000/employee                              - GET, POST request\
-http://localhost:4000/employee/:employeeId                  - GET, PUT, DELETE request\
+http://localhost:4000/employee/:employeeId                  - GET, PUT, DELETE request
 
 
-For Departments
-http://localhost:4000/departments                           - GET, POST request
+For Departments\
+http://localhost:4000/departments                           - GET, POST request\
 http://localhost:4000/departments/:departmentId             - GET, PUT, DELETE request
 
 
@@ -71,7 +67,7 @@ CONSTRAINT fk_departments\
 
 ## 
 
-Go to dbconnector.js and connect with the postgres by providing the\
+Go to `dbconnector.js` and connect with the postgres by providing the\
 username, password, hostname and port of the postgres.
 
 
