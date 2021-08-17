@@ -30,7 +30,7 @@ We will get the result at \
     http://localhost:4000/departments 
 
 
-Endpoint present in the projects -\
+Endpoint present in the projects -
 
 For Employee\
 http://localhost:4000/employee                              - GET, POST request\
