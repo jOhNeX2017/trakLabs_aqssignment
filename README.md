@@ -12,7 +12,9 @@ express
 First of all install all the dependencies by following command - 
 
 ### 'npm install'
+
         or
+        
 ### 'yarn'   
 
 Now after this run the following command to create run the tslint so that it can be converted into js. 
