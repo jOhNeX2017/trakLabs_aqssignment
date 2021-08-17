@@ -68,7 +68,7 @@ CONSTRAINT fk_departments\
 ## 
 
 Go to `dbconnector.js` and connect with the postgres by providing the\
-username, password, hostname and port of the postgres.
+username, password, hostname, port and dbname of the postgres.
 
 
 
