@@ -2,7 +2,7 @@ import { Pool } from 'pg';
 
 export default new Pool ({
     max: 20,
-    connectionString: 'postgres://johnex:root@localhost:5432/johnex',
+    connectionString: 'postgres://user:password@hostname:5432/dbname',
     idleTimeoutMillis: 30000
 });
 
